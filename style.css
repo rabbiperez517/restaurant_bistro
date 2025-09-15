@@ -99,10 +99,10 @@ section{
 
 section {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-  gap: 20px; /* space between items */
-  justify-items: center; /* center items horizontally */
-  align-items: start; /* align items at the top */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; 
+  justify-items: center; 
+  align-items: start; 
   padding: 20px;
 }
 
@@ -131,6 +131,8 @@ section figure {
 section figure img {
   border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 200px;
+  width: 200px;
 }
 
 section figure img:hover {
